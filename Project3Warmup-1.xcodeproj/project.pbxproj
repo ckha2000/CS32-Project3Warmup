@@ -41,7 +41,7 @@
 		E80579CD22149FC7009105E8 = {
 			isa = PBXGroup;
 			children = (
-				E80579D822149FC7009105E8 /* Project3Warmup */,
+				E80579D822149FC7009105E8 /* Project3Warmup-1 */,
 				E80579D722149FC7009105E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E80579D822149FC7009105E8 /* Project3Warmup */ = {
+		E80579D822149FC7009105E8 /* Project3Warmup-1 */ = {
 			isa = PBXGroup;
 			children = (
 				E80579D922149FC7009105E8 /* main.cpp */,
 			);
-			path = Project3Warmup;
+			path = "Project3Warmup-1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
