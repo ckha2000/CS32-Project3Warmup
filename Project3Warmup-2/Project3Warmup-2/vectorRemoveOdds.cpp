@@ -20,11 +20,9 @@ void removeOdds(vector<int>& v){
     
     while(it != v.end()){
         if((*it)%2 == 1){
-            vector<int>::iterator killMe = it;
-            cout << "removing: " << (*killMe) << endl;
-            v.erase(killMe);                                // when you erase values in vectors, the values
-                                                            // after shift to the right
-                                                            // you don't have to iterate "it" if you erase
+            cout << "removing: " << (*it) << endl;
+            v.erase(it);
+            it = v.begin();
         }else{
             cout << "not removing: " << (*it) << endl;
             it++;
